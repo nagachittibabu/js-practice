@@ -22,6 +22,6 @@ printVowels = function (val1) {
     return output;
 }
 let str1 = "i i i i i i i i i i arsafs asfasf f i i i";
-let str2 = "this is all about to learning about java";
+let str = "this is all about to learning about java";
 let str3 = "iamlearningaboutthejavascript";
-console.log(printVowels(str2));
+console.log(printVowels(str));

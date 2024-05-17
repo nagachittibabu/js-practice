@@ -29,10 +29,6 @@ bigWordinArr = function (arr) {
     let bigNum = 0;
     let str="";
     for (i = 0; i < arr.length; i++) {
-        if(typeof(arr[i]) == 'string') {
-          str+=(arr[i].split(" "));
-        }
-        console.log(str);
         if (arr[i].length > bigNum) {
             bigNum = arr[i].length;
             bigWord = arr[i];
